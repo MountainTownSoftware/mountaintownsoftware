@@ -29,17 +29,15 @@ const { title, description, pubDate, author } = Astro.props;
 				padding: 0;
 			}
 			
-			header {
-				max-width: 1200px;
-				margin: 0 auto;
-				background-color: var(--secondary);
-				color: white;
-				padding: 1rem 0;
-				box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
+		header {
+			max-width: 1200px;
+			margin: 0 auto;
+			color: white;
+			padding: 1rem 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 			
 			.logo {
 				font-size: 1.5rem;
@@ -110,7 +108,7 @@ const { title, description, pubDate, author } = Astro.props;
 		</style>
 	</head>
 	<body>
-		<div style="background-color: black; width: 100%;">
+		<div style="background-color: black; width: 100%; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
 			<header>
 				<a href="/" class="logo">Mountain Town Software</a>
 				<nav>
