@@ -8,7 +8,8 @@ This is a static website built with Astro.js featuring:
 
 - Custom design for Mountain Town Software
 - Information about AI expertise and software development services
-- Contact form for inquiries
+- Blog section with articles about agentic AI
+- Location information with Google Maps
 - Responsive layout for all devices
 
 ## 🧞 Commands
@@ -39,3 +40,7 @@ Services include:
 - Legacy System Modernization
 - Process Automation
 - Technical Consulting
+
+## 📝 Blog
+
+The website includes a blog section with articles about agentic AI and other relevant topics to help educate visitors about AI technologies.

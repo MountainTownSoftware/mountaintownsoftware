@@ -135,50 +135,20 @@
 				border: 5px solid var(--primary);
 			}
 			
-			.contact-form {
+			.pricing {
 				background: white;
 				padding: 2rem;
 				border-radius: 0.5rem;
 				box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+				text-align: center;
 				margin-top: 3rem;
 			}
 			
-			.form-group {
-				margin-bottom: 1rem;
-			}
-			
-			label {
-				display: block;
-				margin-bottom: 0.5rem;
+			.price {
+				font-size: 3rem;
 				font-weight: bold;
-			}
-			
-			input, textarea {
-				width: 100%;
-				padding: 0.75rem;
-				border: 1px solid #ddd;
-				border-radius: 0.25rem;
-				font-size: 1rem;
-			}
-			
-			textarea {
-				height: 150px;
-				resize: vertical;
-			}
-			
-			button {
-				background-color: var(--primary);
-				color: white;
-				padding: 0.75rem 1.5rem;
-				border: none;
-				border-radius: 0.25rem;
-				font-size: 1rem;
-				cursor: pointer;
-				transition: background-color 0.3s ease;
-			}
-			
-			button:hover {
-				background-color: #1d4ed8;
+				color: var(--primary);
+				margin: 1rem 0;
 			}
 			
 			footer {
@@ -200,37 +170,38 @@
 			<nav>
 				<a href="#services">Services</a>
 				<a href="#about">About</a>
-				<a href="#contact">Contact</a>
+				<a href="#pricing">Pricing</a>
+				<a href="/blog">Blog</a>
 			</nav>
 		</header>
 		
 		<section class="hero">
 			<div class="container">
-				<h1>AI Solutions & Software Development</h1>
-				<p>Mountain Town Software, a subsidiary of Apple Jamz, specializes in cutting-edge AI solutions and custom software development.</p>
-				<a href="#contact" class="cta-button">Get in Touch</a>
+				<h1>Learn AI, One-on-One</h1>
+				<p>Personalized AI tutoring to help you get started with agentic coding and artificial intelligence tools. No technical background required.</p>
+				<a href="#pricing" class="cta-button">Book Your Session</a>
 			</div>
 		</section>
 		
 		<section id="services" class="container">
-			<h2>Our Services</h2>
+			<h2>How I Can Help You</h2>
 			<div class="services">
 				<div class="service-card">
 					<div class="service-icon">🤖</div>
-					<h3>AI & Machine Learning</h3>
-					<p>Custom AI solutions tailored to your business needs, including machine learning models, natural language processing, and computer vision applications.</p>
+					<h3>Agentic Coding Setup</h3>
+					<p>Get started with agentic coding - learn how to create AI agents that can work for you and automate tasks.</p>
 				</div>
 				
 				<div class="service-card">
-					<div class="service-icon">💻</div>
-					<h3>Software Development</h3>
-					<p>Full-stack development services with expertise in modern frameworks and technologies for web, mobile, and desktop applications.</p>
+					<div class="service-icon">🎯</div>
+					<h3>Personalized AI Guidance</h3>
+					<p>One-on-one sessions tailored to your specific goals and skill level. We'll focus on what matters most to you.</p>
 				</div>
 				
 				<div class="service-card">
-					<div class="service-icon">⚙️</div>
-					<h3>IT Consulting</h3>
-					<p>Strategic guidance for technology decisions, system architecture, and digital transformation initiatives.</p>
+					<div class="service-icon">💡</div>
+					<h3>Hands-On Learning</h3>
+					<p>Practical exercises and real-world examples to help you build confidence using AI tools effectively.</p>
 				</div>
 			</div>
 		</section>
@@ -239,15 +210,8 @@
 			<h2>About Travis Stevens</h2>
 			<div class="about">
 				<div class="about-content">
-					<p>With over 25 years of experience in software development and IT, I bring deep technical expertise to every project. As a local AI expert, I specialize in creating innovative solutions that drive business value.</p>
-					<p>My expertise includes:</p>
-					<ul>
-						<li>AI/ML Solution Development</li>
-						<li>Software Architecture & Design</li>
-						<li>Legacy System Modernization</li>
-						<li>Process Automation</li>
-						<li>Technical Consulting</li>
-					</ul>
+					<p>With over 25 years of experience in software development and IT, I've seen technology transform how we work and live. Now I'm focused on helping everyday people harness the power of AI tools.</p>
+					<p>My approach is simple: make technology accessible and useful for everyone, regardless of technical background.</p>
 					<p style="margin-top: 1rem; text-align: center;">
 						<a href="https://www.linkedin.com/in/travisstevens/" target="_blank">View LinkedIn Profile</a>
 					</p>
@@ -261,27 +225,35 @@
 			</div>
 		</section>
 		
-		<section id="contact" class="container">
-			<h2>Contact Us</h2>
-			<div class="contact-form">
-				<form>
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input type="text" id="name" name="name" required>
-					</div>
-					
-					<div class="form-group">
-						<label for="email">Email</label>
-						<input type="email" id="email" name="email" required>
-					</div>
-					
-					<div class="form-group">
-						<label for="message">Message</label>
-						<textarea id="message" name="message" required></textarea>
-					</div>
-					
-					<button type="submit">Send Message</button>
-				</form>
+		<section id="pricing" class="container">
+			<h2>Simple, Affordable Pricing</h2>
+			<div class="pricing">
+				<h3>AI Setup & Agentic Coding</h3>
+				<div class="price">$20</div>
+				<p>for the first hour</p>
+				<p>Get setup with agentic coding and start building AI-powered solutions in your first session. I'll guide you through the tools and techniques to make AI work for you.</p>
+				<p><strong>Bring your own computer or use our in-house computer.</strong></p>
+				<p><strong>1 hour to get up and running, or no charge!</strong></p>
+				<p>Sessions are by appointment only. Contact me to schedule your session.</p>
+				<a href="mailto:info@mountaintownsoftware.com" class="cta-button">Contact for Appointment</a>
+			</div>
+		</section>
+		
+		<section id="location" class="container">
+			<h2>Location</h2>
+			<div style="text-align: center; margin-top: 2rem;">
+				<p><strong>Mountain Town Software</strong></p>
+				<p>611 Kanuga Rd<br>Hendersonville, NC 28739<br>USA</p>
+				<div style="margin: 2rem 0;">
+					<iframe 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.746743589044!2d-82.4586446!3d35.3194447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885942a7d8b7b8f7%3A0x7d8b7b8f7d8b7b8f!2s611%20Kanuga%20Rd%2C%20Hendersonville%2C%20NC%2028739!5e0!3m2!1sen!2sus!4v1708560000000!5m2!1sen!2sus" 
+						width="100%" 
+						height="400" 
+						style="border:0;" 
+						allowfullscreen="" 
+						loading="lazy">
+					</iframe>
+				</div>
 			</div>
 		</section>
 		
