@@ -1,29 +1,15 @@
-# Astro Starter Kit: Minimal
+# Mountain Town Software
 
-```sh
-npm create astro@latest -- --template minimal
-```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Website for Mountain Town Software, a subsidiary of Apple Jamz, specializing in AI solutions and custom software development.
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+This is a static website built with Astro.js featuring:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+- Custom design for Mountain Town Software
+- Information about AI expertise and software development services
+- Contact form for inquiries
+- Responsive layout for all devices
 
 ## 🧞 Commands
 
@@ -35,9 +21,21 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 🌐 Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This site is deployed to GitHub Pages. To deploy updates:
+
+1. Push changes to the main branch
+2. GitHub Actions will automatically build and deploy the site
+
+## 👨‍💻 About
+
+With over 25 years of experience in software development and IT, Travis Stevens brings deep technical expertise to every project. As a local AI expert, he specializes in creating innovative solutions that drive business value.
+
+Services include:
+- AI/ML Solution Development
+- Software Architecture & Design
+- Legacy System Modernization
+- Process Automation
+- Technical Consulting
